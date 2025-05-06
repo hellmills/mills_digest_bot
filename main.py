@@ -14,7 +14,7 @@ dp = Dispatcher(bot)
 def get_daily_digest():
     today = datetime.date.today()
     # In production, this would pull from real APIs or analysis functions
-    return f"📊 {today} — Новости:
+    return f'📊 {today} – Новости:'
 
 - 📈 Биткойн на подъеме
 - 🇺🇸 ФРС сохраняет ставку
